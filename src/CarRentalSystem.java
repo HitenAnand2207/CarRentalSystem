@@ -55,7 +55,7 @@ public class CarRentalSystem {
 
             if (!rs.next()) {
                 System.out.println("Car not available or does not exist");
-                return;
+                return
             }
 
             double pricePerDay = rs.getDouble("price_per_day");
